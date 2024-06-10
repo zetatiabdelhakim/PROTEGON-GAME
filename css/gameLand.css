@@ -1,0 +1,176 @@
+body{
+    background: linear-gradient(to right, #d5cece, #999999);
+  }
+  div[class^="col"]{
+    background-color: white;
+    margin: 1.3888888%;
+    padding: 1%;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+  }
+  img{
+    float: left;
+    margin: 1%;
+  }
+  .img-player{
+    width: 46%;
+    float: left;
+    margin: 2%;
+  }
+  .card-player{
+    width: 46%;
+    float: left;
+    margin: 2%;
+  }
+  .player{
+    width: 20%;
+    position: relative;
+    box-sizing: border-box;
+    border: solid 2px black;
+    border-radius: 5px;
+  }
+  .name{
+   color: blue;
+   background-color: #999999;
+   border-radius: 5px;
+   font-size: 70%;
+  }
+  #table,#book{
+    position: relative;
+  }
+  #player-1{
+    position: absolute;
+    top: 8%;
+    left: 1%;
+  }
+  #player-2{
+    position: absolute;
+    top: 8%;
+    right:1% ;
+  }
+  #player-3{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+  }
+  #player-4{
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+  }
+  #place-1 img{
+    width:12.28571429%;
+    margin: 1%;
+  }
+  #place-1{
+    position: absolute;
+    top: 18%;
+    left: 21%;
+  }
+  #place-2 img{
+    width:7.333333333%;
+    margin: 0.5%;
+  }
+  #place-2{
+    position: absolute;
+    top: 34%;
+    left: 0%;
+  }
+  #place-3 img{
+    width:12.28571429%;
+    margin: 1%;
+  }
+  #place-3{
+    position: absolute;
+    bottom: 16%;
+    left: 21%;
+  }
+img{
+    transition: transform 1s ease;
+}
+img:hover{
+    transform: scale(2);
+}
+font{
+    color: rgb(42, 48, 61);
+    font-size: 140%;
+    font-family: fantasy;
+}
+#info-round{
+    position: absolute;
+    bottom: 6%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.img-player:hover{
+    transform: scale(1);
+
+  }
+#information,#exchange_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 96%;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 96%;
+    margin: 2%;
+    visibility: hidden;
+}
+#the-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(146, 139, 139, 0.9);
+    width: 50%;
+    height:50%;
+    transform: translate(-50%,-50%);
+    padding: 2%;
+    color: rgb(145, 238, 145);
+    box-shadow: 2px 2px 5px 0 rgb(0, 0, 0);
+    font-size: 150%;
+    font-family: fantasy;
+    text-align: center;
+    z-index:100;
+    visibility: hidden;
+}
+.clear-br {
+    clear: both;
+    display: block;
+    content: "";
+  }
+.exchange_div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 10;
+  padding-top: 10%;
+  visibility: hidden;
+}
+#c1-c:hover,#c2-c:hover{
+transform: scale(1);
+}
+#c1-c,#c2-c{
+  width: 40%;
+  margin: 5%;
+  height:auto;
+}
+#f1,#f2{
+  width: 40%;
+  margin: 12%;
+}
+@media (max-width: 1200px) {
+  #f1,#f2 {
+    font-size: 3vw;
+  }
+}
+#do-the-exchange{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0%);
+  bottom: 4%;
+  width: 10%;
+}

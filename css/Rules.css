@@ -1,0 +1,26 @@
+.container{
+    width: 30%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3);
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+  }
+  img{
+    width: 30%;
+  }
+  .btn{
+    width: 50%;
+  }
+  h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  body{
+    background: linear-gradient(to right, #d5cece, #999999);
+  }
+
+  font{
+    color: rgb(152, 152, 255);
+  }

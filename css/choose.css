@@ -1,0 +1,36 @@
+
+#MIN,#MAX{
+    box-sizing: border-box;
+    width: 14%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 0 rgb(0, 0, 0);
+}
+#MIN{
+    background-color: green;
+    margin-left: 20%;
+    margin-right: 8%;
+}
+#MAX{
+    background-color: red;
+    margin-left: 8%;
+    margin-right: 20%;
+}
+#MIN:hover{
+    transform: scale(0.9);
+    background-color: rgb(64, 189, 64);
+}
+#MAX:hover{
+    transform: scale(0.9);
+    background-color: rgb(208, 76, 76);
+}
+.img{
+    float: left;
+    margin: 1%;
+    width: 10.5%;
+  }
+  .clear-br {
+    clear: both;
+    display: block;
+    content: "";
+  }
